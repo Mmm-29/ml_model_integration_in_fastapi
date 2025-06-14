@@ -1,0 +1,1 @@
+This project demonstrates how to **integrate a Machine Learning model into a FastAPI application**. It covers the end-to-end flow including model loading, data validation using **Pydantic**, and API deployment. The project is ideal for learning how to serve ML predictions using modern Python tools.
