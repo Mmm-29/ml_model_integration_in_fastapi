@@ -13,7 +13,7 @@ except Exception as e:
     logger.exception("Failed to load model")
     raise securityException("Failed to load model", sys)
 
-MODEL_VERSION = '1.0.0'
+
 
 #  Add human-readable label mapping
 label_map = {0: 'low', 1: 'medium', 2: 'high'}
