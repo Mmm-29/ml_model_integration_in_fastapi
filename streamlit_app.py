@@ -35,10 +35,10 @@ if st.button("Predict Premium Category"):
             st.success(f"Prediction: **{result['predicted_category']}**\n\nConfidence: {result['confidence']}")
             st.write("Class Probabilities:", result["class_probabilities"])
         else:
-            st.error("⚠️ Unexpected API response:")
+            st.error(" Unexpected API response:")
             st.json(result)
 
     except requests.exceptions.RequestException as e:
-        st.error(f"❌ Request failed: {e}")
+        st.error(f" Request failed: {e}")
     except Exception as e:
-        st.error(f"❌ An unexpected error occurred: {e}")
+        st.error(f" An unexpected error occurred: {e}")
